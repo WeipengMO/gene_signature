@@ -1,5 +1,6 @@
-baseURL: http://localhost
+baseURL: https://weipengmo.github.io/
 title: Gene Signature
+paginate: 5
 
 theme: PaperMod
 
@@ -7,10 +8,11 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 minify:
   disableXML: true
-  minifyOutput: true
+  # minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -74,9 +76,8 @@ params:
     Title: "Welcome to Gene Signature ☺️"
     Content: >
       - ✨ This website is dedicated to collecting and sharing gene signature from various sources. 
-      
-      - 🔍 Easily search and filter datasets by keywords
 
+      - 🔍 Easily search and filter datasets by keywords
 
   socialIcons:
     - name: x
@@ -92,13 +93,13 @@ params:
     yandex:
       SiteVerificationTag: "XYZabc"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+  # cover:
+  #   hidden: true # hide everywhere but not in structured data
+  #   hiddenInList: true # hide on list pages and home
+  #   hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/gene_signature/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -119,6 +120,10 @@ menu:
       name: Search
       url: search/
       weight: 1
+    - identifier: archive
+      name: Archive
+      url: archives/
+      weight: 5
     - identifier: categories
       name: Categories
       url: /categories/

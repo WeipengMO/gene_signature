@@ -1,14 +1,30 @@
 ---
-title: "Curated Gene Signatures for T Cells"
-summary: "Gene signature information for T cells, including characteristic genes in different T cell states"
-description: "Gene signature information for T cells, including characteristic genes in different T cell states"
-tags: ["Immune", 'CD4', 'CD8']
-categories: ["Gene lists"]
+title: "Pan-cancer T cell atlas links a cellular stress response state to immunotherapy resistance"
+summary: "Signature genes of T cell subsets."
+description: "Signature genes of T cell subsets"
+tags: ["CD4", "CD8"]
+categories: ["Immune"]
 ShowToc: true
 TocOpen: false
+date: "2024-05-15"
 ---
 
-### CD8 T
+## T cells
+
+| Signature                        | Genes                                                                                       |
+|----------------------------------|--------------------------------------------------------------------------------------------|
+| CD8_c1_Tex | CXCL13, GZMB, HAVCR2, CCL3, ENTPD1, VCAM1, LAG3, TNFRSF9, CTLA4, CCL4L1, TIGIT, TNFRSF18, PDCD1, IFNG, ACP5, LAYN, CXCR6, GNLY, PHLDA1, DUSP4, CD3D, CD3E, CD8A, CD8B |
+| CD4/CD8_c4_Tstr | HSPA6, HSPA1A, HSPA1B, DNAJB1, HSPH1, HSP90AA1, HSPE1, HSPB1, BAG3, HSPD1, DNAJA1, HSP90AB1, JUN, NR4A1, HSPA8, FOSB, FOS, DUSP1, DNAJB4, DNAJA4, CD3D, CD3E, ,  |
+| CD8_c5_Tisg | ISG15, IFI6, MX1, IFI44L, IFIT3, IFIT1, RSAD2, OAS1, IFI27, IFI44, XAF1, MX2, STAT1, OAS3, EPSTI1, SAMD9L, HERC5, EIF2AK2, IFIT2, LY6E, CD3D, CD3E, CD8A, CD8B |
+| CD8_Teff | GZMK, GPR183, FGFBP2, GNLY, GZMH, CX3CR1, FCGR3A, PLEK, KLRD1, HOPX, KLRG1, NKG7, ZEB2, TBX21, PRF1, CD300A, CD244, EOMES, GZMM, SEMA4A, CD3D, CD3E, CD8A, CD8B |
+| CD8_Tn | LEF1, SELL, TCF7, CCR7, FHIT, KLF2, CD3D, CD3E, CD8A, CD8B |
+| CD4_c1_Treg | FOXP3, IL2RA, TNFRSF4, TIGIT, TNFRSF18, BATF, CTLA4, RTKN2, TNFRSF9, IKZF2, TNFRSF1B, LAYN, CD27, GBP5, IL2RB, IL1R2, DUSP4, GBP2, ICOS, ENTPD1, CD4, CD3D, CD3E,  |
+| CD4_c3_Tfh | CXCL13, BCL6, PDCD1, LAG3, CXCR5, TOX2, GNG4, TIGIT, NR3C1, SH2D1A, SMCO4, CHI3L2, TOX, TNFRSF4, BTLA, TNFRSF18, NMB, CD200, CD4, CD3D, CD3E |
+| CD4_c0_Tcm | ANXA1, LMNA, KLRB1, IL7R, GPR183, CXCR4, FOS, JUND, KLF2, CD69, CD4, CD3D, CD3E |
+| CD4_Tn | CCR7, FHIT, KLF2, LEF1, SELL, TCF7, ACTN1, CD3D, CD3E, CD4 |
+
+
+## CD8 T cell state
 
 | Signature                        | Genes                                                                                       |
 |----------------------------------|--------------------------------------------------------------------------------------------|
@@ -33,9 +49,7 @@ TocOpen: false
 | Anti-apoptosis | BCL11B, BCL2L1, BAG3, BAG4, BIRC3, GADD45B | 
 
 
-<br><br>
-
-### CD4 T
+## CD4 T cell state
 
 | Signature                        | Genes                                                                                       |
 |----------------------------------|--------------------------------------------------------------------------------------------|
@@ -57,6 +71,6 @@ TocOpen: false
 | Pro-apoptosis | BAX, BAG3, CASP1, CASP4, CYCS, BCL2L11 | 
 | Anti-apoptosis | BIN1, BIN2, BIRC3, BCL2, BCL2L1, MCL1 | 
 
-Ref<cite>[^1]</cite>
+<cite>Ref[^1]</cite>
 
 [^1]: Chu, Y., Dai, E., Li, Y. et al. Pan-cancer T cell atlas links a cellular stress response state to immunotherapy resistance. Nat Med 29, 1550–1562 (2023). https://doi.org/10.1038/s41591-023-02371-y

@@ -3,9 +3,10 @@ title: "Signatures of Immune Oncology"
 summary: "Immune oncology signatures categorized by their functions and associated cell types."
 description: "Immune oncology signatures categorized by their functions and associated cell types."
 tags: ["TME", "Immune"]
-categories: ["Gene lists"]
+categories: ["Immune"]
 ShowToc: false
 TocOpen: false
+date: "2024-05-31"
 ---
 
 | Signature                        | Genes                                                                                       |
