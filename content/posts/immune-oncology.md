@@ -2,7 +2,7 @@
 title: "Signatures of Immune Oncology"
 summary: "Immune oncology signatures categorized by their functions and associated cell types."
 description: "Immune oncology signatures categorized by their functions and associated cell types."
-tags: ["TME", "Immune"]
+tags: ["TME", "Immune", 'IFN']
 categories: ["Immune"]
 ShowToc: false
 TocOpen: false
