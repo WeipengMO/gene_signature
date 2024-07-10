@@ -80,10 +80,8 @@ params:
       - 🔍 Easily search and filter geneset by keywords
 
   socialIcons:
-    - name: x
-      url: "https://x.com/weipeng_mo"
     - name: github
-      url: "https://github.com/WeipengMO"
+      url: "https://github.com/WeipengMO/gene_signature"
 
   analytics:
     google:
